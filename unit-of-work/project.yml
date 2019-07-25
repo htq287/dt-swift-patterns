@@ -1,0 +1,42 @@
+name: UnitOfWork
+options:
+  minimumXcodeGenVersion: 2.2.0
+  createIntermediateGroups: true
+targets:
+  # Unit-Of-Work
+  UnitOfWork:
+    platform: macOS
+    type: framework
+    sources:
+      - UnitOfWork
+    configFiles:
+      Debug: configs/UnitOfWork-Debug.xcconfig
+      Release: configs/UnitOfWork-Release.xcconfig
+  UnitOfWorkTests:
+    platform: macOS
+    type: bundle.unit-test
+    configFiles:
+      Debug: configs/UnitOfWorkTests-Debug.xcconfig
+      Release: configs/UnitOfWorkTests-Release.xcconfig
+    sources:
+      - Tests
+    dependencies:
+      - target: UnitOfWork
+    scheme:
+      testTargets:
+        - UnitOfWorkTests
+      gatherCoverageData: true
+  # Sample
+  Sample:
+    platform: macOS
+    type: application
+    sources:
+      - Sample
+    configFiles:
+      Debug: configs/Sample-Debug.xcconfig
+      Release: configs/Sample-Release.xcconfig
+    dependencies:
+      - target: UnitOfWork
+    scheme:
+      environmentVariables:
+        ENABLE_SIGNPOST: YES
