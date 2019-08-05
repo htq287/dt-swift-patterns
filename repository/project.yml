@@ -1,0 +1,45 @@
+name: Repository
+options:
+  minimumXcodeGenVersion: 2.2.0
+  createIntermediateGroups: true
+targets:
+  # Repository Framework
+  Repository:
+    platform: macOS
+    type: framework
+    sources:
+      - Repository
+    configFiles:
+      Debug: configs/Repository-Debug.xcconfig
+      Release: configs/Repository-Release.xcconfig
+    dependencies:
+      - carthage: Realm
+      - carthage: RealmSwift
+  RepositoryTests:
+    platform: macOS
+    type: bundle.unit-test
+    configFiles:
+      Debug: configs/RepositoryTests-Debug.xcconfig
+      Release: configs/RepositoryTests-Release.xcconfig
+    sources:
+      - Tests
+    dependencies:
+      - target: Repository
+    scheme:
+      testTargets:
+        - RepositoryTests
+      gatherCoverageData: true
+  # Sample
+  Sample:
+    platform: macOS
+    type: application
+    sources:
+      - Sample
+    configFiles:
+      Debug: configs/Sample-Debug.xcconfig
+      Release: configs/Sample-Release.xcconfig
+    dependencies:
+      - target: Repository
+    scheme:
+      environmentVariables:
+        ENABLE_SIGNPOST: YES
