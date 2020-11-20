@@ -3,7 +3,7 @@
 //  Sample
 //
 //  Created by Hung Q. Truong on 7/10/19.
-//  Copyright © 2019 Hung Q. Truong. All rights reserved.
+//  Copyright © 2020 Hung Q. Truong. All rights reserved.
 //
 
 import Cocoa
