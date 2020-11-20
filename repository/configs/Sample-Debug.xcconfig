@@ -1,4 +1,4 @@
 #include "Base.xcconfig"
 
-PRODUCT_BUNDLE_IDENTIFIER = com.swift-patterns.sample.dev
+PRODUCT_BUNDLE_IDENTIFIER = com.swift-patterns.repository.dev
 DB_NAME = swift-patterns-dev
