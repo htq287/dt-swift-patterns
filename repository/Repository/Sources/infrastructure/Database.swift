@@ -11,7 +11,7 @@ import RealmSwift
 
 open class Database: IDatabase {
 
-    typealias T = Object
+    public typealias T = Object
     
     
     let databasePath: String
@@ -19,7 +19,12 @@ open class Database: IDatabase {
     
     public init(databasePath: String) {
         self.databasePath = databasePath
-        self.realm = Realm.getRealm()
+        if self.databasePath.isEmpty {
+            self.realm = Realm.getRealm(fileURL: nil)
+        } else {
+            let fileURL: URL = URL.init(fileURLWithPath: self.databasePath)
+            self.realm = Realm.getRealm(fileURL: fileURL)
+        }
     }
     
     // MARK: - IDatabase Implementations
@@ -40,9 +45,9 @@ open class Database: IDatabase {
 }
 
 extension Realm {
-    static func getRealm() -> Realm {
+    static func getRealm(fileURL: URL?) -> Realm {
         do {
-            let fileURL = Configuration.defaultConfiguration.fileURL?
+            let fileURL = (fileURL != nil) ? fileURL : Configuration.defaultConfiguration.fileURL?
                 .deletingLastPathComponent()
                 .appendingPathComponent("swift-patterns.realm")
             

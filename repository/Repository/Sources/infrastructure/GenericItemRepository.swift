@@ -7,16 +7,16 @@
 
 import Foundation
 
-class GenericItemRepository: IBaseRepository {
+open class GenericItemRepository: IBaseRepository {
     
-    static var si = GenericItemRepository()
+    //static var si = GenericItemRepository()
     
     typealias T = BaseObject
     
     let db: Database
     
-    init() {
-        self.db = Database(databasePath: "")
+    init(_ database: Database) {
+        self.db = database
     }
     
     // MARK: - IBaseRepository Implementations

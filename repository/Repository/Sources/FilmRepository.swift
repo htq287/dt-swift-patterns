@@ -9,9 +9,11 @@ import Foundation
 
 open class FilmRepository {
     
-    fileprivate let gr = GenericItemRepository.si
+    fileprivate var gr: GenericItemRepository!
     
-    public init() {}
+    public init(_ database: Database) {
+        self.gr = GenericItemRepository(database)
+    }
     
     public func add(_ object: Film) {
         gr.add(object)

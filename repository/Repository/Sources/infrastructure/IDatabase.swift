@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol IDatabase {
+public protocol IDatabase {
     associatedtype T
     
     func add(_ object: T) -> Void
