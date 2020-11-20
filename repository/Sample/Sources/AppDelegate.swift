@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Sample
 //
-//  Created by Hung Truong on 7/10/19.
-//  Copyright © 2019 Hung Truong. All rights reserved.
+//  Created by Hung Q. Truong on 7/10/19.
+//  Copyright © 2019 Hung Q. Truong. All rights reserved.
 //
 
 import Cocoa

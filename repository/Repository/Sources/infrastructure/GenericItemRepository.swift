@@ -2,7 +2,7 @@
 //  GenericItemRepository.swift
 //  Repository
 //
-//  Created by Hung Truong on 7/21/19.
+//  Created by Hung Q. Truong on 7/21/19.
 //
 
 import Foundation
