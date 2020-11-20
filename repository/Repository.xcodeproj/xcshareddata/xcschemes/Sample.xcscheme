@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "85B3BB9D81B9AA956A4FCEB77ACB4230"
+               BlueprintIdentifier = "85B3BB9D81B9AA956A4FCEB7"
                BuildableName = "Sample.app"
                BlueprintName = "Sample"
                ReferencedContainer = "container:Repository.xcodeproj">
@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      onlyGenerateCoverageForSpecifiedTargets = "NO"
       shouldUseLaunchSchemeArgsEnv = "NO">
       <Testables>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "85B3BB9D81B9AA956A4FCEB77ACB4230"
+            BlueprintIdentifier = "85B3BB9D81B9AA956A4FCEB7"
             BuildableName = "Sample.app"
             BlueprintName = "Sample"
             ReferencedContainer = "container:Repository.xcodeproj">
@@ -47,8 +48,6 @@
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -64,7 +63,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "85B3BB9D81B9AA956A4FCEB77ACB4230"
+            BlueprintIdentifier = "85B3BB9D81B9AA956A4FCEB7"
             BuildableName = "Sample.app"
             BlueprintName = "Sample"
             ReferencedContainer = "container:Repository.xcodeproj">
@@ -79,8 +78,6 @@
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -92,7 +89,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "85B3BB9D81B9AA956A4FCEB77ACB4230"
+            BlueprintIdentifier = "85B3BB9D81B9AA956A4FCEB7"
             BuildableName = "Sample.app"
             BlueprintName = "Sample"
             ReferencedContainer = "container:Repository.xcodeproj">

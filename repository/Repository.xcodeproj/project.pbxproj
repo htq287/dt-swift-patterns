@@ -3,75 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13A01EE256237F3DE9817C21EC8CAD8F /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB555DC8F24334C482ADF927FD5FF176 /* Film.swift */; };
-		3732123C506498624A76DA71226BB65B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B6CE44F9326719F51C1B9C4DB35DB8 /* AppDelegate.swift */; };
-		3B0CC726CFDA4802ADD4FB8AEFD68327 /* Repository.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F579523FF6CA05773C75F5F5B0BEB8A /* Repository.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4C613538F11B641F54DFC1142FE92D87 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA4BBDCAA06AA8CF10E2A341297C05BE /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B4E9341A8C5EEBC2542404FAD097094 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6688303D3E338ADE9F520ACA91747BF0 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		614F406512C1BCE73C18553AB2D23521 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA4BBDCAA06AA8CF10E2A341297C05BE /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8CBDB1753C4AC74DA82BA9D7623DBBBD /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC178637D14A2ED7429BD3F5A17502 /* RepositoryTests.swift */; };
-		9921DAC546DB53F5818F05D5763C09B1 /* Repository.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F579523FF6CA05773C75F5F5B0BEB8A /* Repository.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9ED3A2A5C741E11888F69F14A98AA753 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4BBDCAA06AA8CF10E2A341297C05BE /* Realm.framework */; };
-		A38049BD22E414DA00C64CE2 /* FilmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38049BC22E414DA00C64CE2 /* FilmRepository.swift */; };
-		A38049C722E415B100C64CE2 /* IBaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38049C322E415B100C64CE2 /* IBaseRepository.swift */; };
-		A38049C822E415B100C64CE2 /* IDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38049C422E415B100C64CE2 /* IDatabase.swift */; };
-		A38049C922E415B100C64CE2 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38049C522E415B100C64CE2 /* Database.swift */; };
-		A38049CA22E415B100C64CE2 /* GenericItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38049C622E415B100C64CE2 /* GenericItemRepository.swift */; };
-		A38049CC22E4257600C64CE2 /* DatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38049CB22E4257600C64CE2 /* DatabaseTests.swift */; };
-		A38049CE22E43CD100C64CE2 /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38049CD22E43CD100C64CE2 /* BaseObject.swift */; };
-		ABBCC97B42D22748B420E9D0BF198A32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35D87841D03B63B099508A277E52F0 /* ViewController.swift */; };
-		B5795FA19A1F34D5D2B0238AC1B69AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4076B430461A47F9DA32711FA62A7405 /* Main.storyboard */; };
-		C311F37C8B83EAF21D13D14099521667 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F579523FF6CA05773C75F5F5B0BEB8A /* Repository.framework */; };
-		DBC9D9FDEC810ED0547DC2EB5A67D52C /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F579523FF6CA05773C75F5F5B0BEB8A /* Repository.framework */; };
-		EB7AA45D884DA2D15BAA93335219BACF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6688303D3E338ADE9F520ACA91747BF0 /* RealmSwift.framework */; };
-		F8A095507297C516FE030699FFF0A839 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6688303D3E338ADE9F520ACA91747BF0 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF155EF2C5B68F9B6EB1AEEFE21E31D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5496AFBB4164E1DD0145FB5F17E66A30 /* Assets.xcassets */; };
+		00D6BB8093F885A4153D11CF /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F579523FF6CA05773C75F5F /* Repository.framework */; };
+		0EC196D9593EA1163BA5AF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B6CE44F9326719F51C1B9C /* AppDelegate.swift */; };
+		188B9295329CFC94D3E008B4 /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A56A06C1956A922311771 /* BaseObject.swift */; };
+		18C9DFAF044310B77682B4E6 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4BBDCAA06AA8CF10E2A341 /* Realm.framework */; };
+		1F6025CCCED9B769CAFEFA18 /* GenericItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417F8979D8AB3919E2AEF26 /* GenericItemRepository.swift */; };
+		233050937928383305C3A323 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB555DC8F24334C482ADF927 /* Film.swift */; };
+		325C3B83C39CA7F339F699BA /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6688303D3E338ADE9F520ACA /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38A80C9BACEBAEB4F9AE4B48 /* FilmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84C89D9DCE74F4804C13C9 /* FilmRepository.swift */; };
+		3F36493B267DE2742700C20B /* DatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A8A2E781A71FBA7F2898 /* DatabaseTests.swift */; };
+		4FDD5FFE7B9820A85655C312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35D87841D03B63B099508A /* ViewController.swift */; };
+		5BF052E2C73BE1C67BFC7742 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6688303D3E338ADE9F520ACA /* RealmSwift.framework */; };
+		5F6413D0225A318681D4E98E /* Repository.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F579523FF6CA05773C75F5F /* Repository.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		753C2433BD36C6CA32C41954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5496AFBB4164E1DD0145FB5F /* Assets.xcassets */; };
+		79725AEB65D6868D21852680 /* Repository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F579523FF6CA05773C75F5F /* Repository.framework */; };
+		83CF1CBACE62CF35F27BB77D /* Repository.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F579523FF6CA05773C75F5F /* Repository.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		927B04492B6FE208586CC566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4076B430461A47F9DA32711F /* Main.storyboard */; };
+		92CB8318042999E788538295 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA4BBDCAA06AA8CF10E2A341 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A12A8DBD859BD2D0A5042B49 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA4BBDCAA06AA8CF10E2A341 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE20F2D2550584FF2761AFB9 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC178637D14A2ED7429BD3 /* RepositoryTests.swift */; };
+		ECACBDC01A9E922A330900C3 /* IDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E889BCA87F7AD4871245143C /* IDatabase.swift */; };
+		F26D01F51D0F392946194E23 /* IBaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969C6B14ED17F5444A299F9B /* IBaseRepository.swift */; };
+		F53798C3B58FD39169CA6260 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6688303D3E338ADE9F520ACA /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FEB10CC391C36041AAED7026 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F519E93C4ADA4EB97E0969 /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6AC3163FE356D68502AC08BBE53D39BA /* PBXContainerItemProxy */ = {
+		4E116046ECD9E7E0E00E27AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D776D4FCF51BF7CA8714C7092A67FC76 /* Project object */;
+			containerPortal = D776D4FCF51BF7CA8714C709 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D2AB1734E89DD04E08514BF93770036;
+			remoteGlobalIDString = 1D2AB1734E89DD04E08514BF;
 			remoteInfo = Repository;
 		};
-		B6749CF25A0D8A494ACBEFC5ACBFA285 /* PBXContainerItemProxy */ = {
+		E89893B678FE85D5081709D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D776D4FCF51BF7CA8714C7092A67FC76 /* Project object */;
+			containerPortal = D776D4FCF51BF7CA8714C709 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D2AB1734E89DD04E08514BF93770036;
+			remoteGlobalIDString = 1D2AB1734E89DD04E08514BF;
 			remoteInfo = Repository;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7BB4A055D7145FD6A6915FA366C244AF /* Embed Frameworks */ = {
+		7BB4A055D7145FD6A6915FA3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9921DAC546DB53F5818F05D5763C09B1 /* Repository.framework in Embed Frameworks */,
-				4C613538F11B641F54DFC1142FE92D87 /* Realm.framework in Embed Frameworks */,
-				F8A095507297C516FE030699FFF0A839 /* RealmSwift.framework in Embed Frameworks */,
+				5F6413D0225A318681D4E98E /* Repository.framework in Embed Frameworks */,
+				92CB8318042999E788538295 /* Realm.framework in Embed Frameworks */,
+				F53798C3B58FD39169CA6260 /* RealmSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91EE5845A923942DC21F97E39E87F750 /* Embed Frameworks */ = {
+		91EE5845A923942DC21F97E3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3B0CC726CFDA4802ADD4FB8AEFD68327 /* Repository.framework in Embed Frameworks */,
-				614F406512C1BCE73C18553AB2D23521 /* Realm.framework in Embed Frameworks */,
-				5B4E9341A8C5EEBC2542404FAD097094 /* RealmSwift.framework in Embed Frameworks */,
+				83CF1CBACE62CF35F27BB77D /* Repository.framework in Embed Frameworks */,
+				A12A8DBD859BD2D0A5042B49 /* Realm.framework in Embed Frameworks */,
+				325C3B83C39CA7F339F699BA /* RealmSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,180 +79,180 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		002EFEE5662F4B560EA9EB9E70DE76F2 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F9FACA39794784A7FBF666B4585FBDB /* Repository-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Repository-Release.xcconfig"; sourceTree = "<group>"; };
-		4662E68C62FD4530B4D39CB0FB27A565 /* Sample-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Sample-Release.xcconfig"; sourceTree = "<group>"; };
-		4C255B658A772CC5763912F4480354F8 /* RepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51086EAE06F6B70330BDB5FEF41BFEFA /* Repository-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Repository-Debug.xcconfig"; sourceTree = "<group>"; };
-		5496AFBB4164E1DD0145FB5F17E66A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F35D87841D03B63B099508A277E52F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6688303D3E338ADE9F520ACA91747BF0 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
-		67247B8883A3A8C3FE4CE206F355000F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69B6CE44F9326719F51C1B9C4DB35DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69FC178637D14A2ED7429BD3F5A17502 /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
-		6F579523FF6CA05773C75F5F5B0BEB8A /* Repository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75DD94E4B3851A4ABC100CE5BF79CD38 /* RepositoryTests-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "RepositoryTests-Debug.xcconfig"; sourceTree = "<group>"; };
-		A2EA21A029A378EB2594684F2C8F830F /* Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sample.entitlements; sourceTree = "<group>"; };
-		A38049BC22E414DA00C64CE2 /* FilmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmRepository.swift; sourceTree = "<group>"; };
-		A38049C322E415B100C64CE2 /* IBaseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBaseRepository.swift; sourceTree = "<group>"; };
-		A38049C422E415B100C64CE2 /* IDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDatabase.swift; sourceTree = "<group>"; };
-		A38049C522E415B100C64CE2 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		A38049C622E415B100C64CE2 /* GenericItemRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericItemRepository.swift; sourceTree = "<group>"; };
-		A38049CB22E4257600C64CE2 /* DatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseTests.swift; sourceTree = "<group>"; };
-		A38049CD22E43CD100C64CE2 /* BaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseObject.swift; sourceTree = "<group>"; };
-		A8126F6F51D5E25470C3BF09D9C4B9D1 /* Sample-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Sample-Debug.xcconfig"; sourceTree = "<group>"; };
-		BB555DC8F24334C482ADF927FD5FF176 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
-		CA4BBDCAA06AA8CF10E2A341297C05BE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		D73C4698099C1412880DDD67453E45C4 /* RepositoryTests-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "RepositoryTests-Release.xcconfig"; sourceTree = "<group>"; };
-		DA64D7BC0911B5463D2E184699852189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002EFEE5662F4B560EA9EB9E /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F519E93C4ADA4EB97E0969 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		0E84C89D9DCE74F4804C13C9 /* FilmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmRepository.swift; sourceTree = "<group>"; };
+		0F9FACA39794784A7FBF666B /* Repository-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Repository-Release.xcconfig"; sourceTree = "<group>"; };
+		4662E68C62FD4530B4D39CB0 /* Sample-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Sample-Release.xcconfig"; sourceTree = "<group>"; };
+		4C255B658A772CC5763912F4 /* RepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51086EAE06F6B70330BDB5FE /* Repository-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Repository-Debug.xcconfig"; sourceTree = "<group>"; };
+		5496AFBB4164E1DD0145FB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4A56A06C1956A922311771 /* BaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseObject.swift; sourceTree = "<group>"; };
+		5F35D87841D03B63B099508A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6417F8979D8AB3919E2AEF26 /* GenericItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericItemRepository.swift; sourceTree = "<group>"; };
+		6688303D3E338ADE9F520ACA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		67247B8883A3A8C3FE4CE206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		69B6CE44F9326719F51C1B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69FC178637D14A2ED7429BD3 /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		6F579523FF6CA05773C75F5F /* Repository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Repository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DD94E4B3851A4ABC100CE5 /* RepositoryTests-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "RepositoryTests-Debug.xcconfig"; sourceTree = "<group>"; };
+		969C6B14ED17F5444A299F9B /* IBaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBaseRepository.swift; sourceTree = "<group>"; };
+		A2EA21A029A378EB2594684F /* Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sample.entitlements; sourceTree = "<group>"; };
+		A8126F6F51D5E25470C3BF09 /* Sample-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Sample-Debug.xcconfig"; sourceTree = "<group>"; };
+		BB555DC8F24334C482ADF927 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		BCC9A8A2E781A71FBA7F2898 /* DatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseTests.swift; sourceTree = "<group>"; };
+		CA4BBDCAA06AA8CF10E2A341 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		D73C4698099C1412880DDD67 /* RepositoryTests-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "RepositoryTests-Release.xcconfig"; sourceTree = "<group>"; };
+		DA64D7BC0911B5463D2E1846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E889BCA87F7AD4871245143C /* IDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FB70FF4FEA1761F17FE1173D64D548E /* Frameworks */ = {
+		0FB70FF4FEA1761F17FE1173 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED3A2A5C741E11888F69F14A98AA753 /* Realm.framework in Frameworks */,
-				EB7AA45D884DA2D15BAA93335219BACF /* RealmSwift.framework in Frameworks */,
+				18C9DFAF044310B77682B4E6 /* Realm.framework in Frameworks */,
+				5BF052E2C73BE1C67BFC7742 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38FFD09AE8882DA7670505470D48C823 /* Frameworks */ = {
+		38FFD09AE8882DA767050547 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC9D9FDEC810ED0547DC2EB5A67D52C /* Repository.framework in Frameworks */,
+				00D6BB8093F885A4153D11CF /* Repository.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94F3259B4551E55370BF9EE287F627D9 /* Frameworks */ = {
+		94F3259B4551E55370BF9EE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C311F37C8B83EAF21D13D14099521667 /* Repository.framework in Frameworks */,
+				79725AEB65D6868D21852680 /* Repository.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D20E94C242CFF55EA706CF29680F775 /* Sources */ = {
+		3D20E94C242CFF55EA706CF2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A38049C222E415B100C64CE2 /* infrastructure */,
-				BB555DC8F24334C482ADF927FD5FF176 /* Film.swift */,
-				A38049BC22E414DA00C64CE2 /* FilmRepository.swift */,
+				BB555DC8F24334C482ADF927 /* Film.swift */,
+				0E84C89D9DCE74F4804C13C9 /* FilmRepository.swift */,
+				A584DF5BC7BED80B9F1A7FAC /* infrastructure */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		43D714972A84D2AAC5A54C5AAC5DF587 /* Tests */ = {
+		43D714972A84D2AAC5A54C5A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				69FC178637D14A2ED7429BD3F5A17502 /* RepositoryTests.swift */,
-				A38049CB22E4257600C64CE2 /* DatabaseTests.swift */,
+				BCC9A8A2E781A71FBA7F2898 /* DatabaseTests.swift */,
+				69FC178637D14A2ED7429BD3 /* RepositoryTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		5C8FA6AA252FA795FD1C19DD13C1F0E4 /* configs */ = {
+		5C8FA6AA252FA795FD1C19DD /* configs */ = {
 			isa = PBXGroup;
 			children = (
-				51086EAE06F6B70330BDB5FEF41BFEFA /* Repository-Debug.xcconfig */,
-				0F9FACA39794784A7FBF666B4585FBDB /* Repository-Release.xcconfig */,
-				75DD94E4B3851A4ABC100CE5BF79CD38 /* RepositoryTests-Debug.xcconfig */,
-				D73C4698099C1412880DDD67453E45C4 /* RepositoryTests-Release.xcconfig */,
-				A8126F6F51D5E25470C3BF09D9C4B9D1 /* Sample-Debug.xcconfig */,
-				4662E68C62FD4530B4D39CB0FB27A565 /* Sample-Release.xcconfig */,
+				51086EAE06F6B70330BDB5FE /* Repository-Debug.xcconfig */,
+				0F9FACA39794784A7FBF666B /* Repository-Release.xcconfig */,
+				75DD94E4B3851A4ABC100CE5 /* RepositoryTests-Debug.xcconfig */,
+				D73C4698099C1412880DDD67 /* RepositoryTests-Release.xcconfig */,
+				A8126F6F51D5E25470C3BF09 /* Sample-Debug.xcconfig */,
+				4662E68C62FD4530B4D39CB0 /* Sample-Release.xcconfig */,
 			);
 			path = configs;
 			sourceTree = "<group>";
 		};
-		5DD9E0D03C122068948E3C8D30F15057 = {
+		5DD9E0D03C122068948E3C8D = {
 			isa = PBXGroup;
 			children = (
-				5C8FA6AA252FA795FD1C19DD13C1F0E4 /* configs */,
-				A3BEEFA8D1BD741D10AF99BA0D8D1F04 /* Repository */,
-				C09F45D05CC14E359E8BB5B9EE7E26A9 /* Sample */,
-				43D714972A84D2AAC5A54C5AAC5DF587 /* Tests */,
-				AAE649489D78DD6539EEB5FFB66DC7C3 /* Frameworks */,
-				B9E40665B322982A6453CC4EA9E3D41E /* Products */,
+				5C8FA6AA252FA795FD1C19DD /* configs */,
+				A3BEEFA8D1BD741D10AF99BA /* Repository */,
+				C09F45D05CC14E359E8BB5B9 /* Sample */,
+				43D714972A84D2AAC5A54C5A /* Tests */,
+				AAE649489D78DD6539EEB5FF /* Frameworks */,
+				B9E40665B322982A6453CC4E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		725D06149DA2B0E38837552762CAE4AF /* Sources */ = {
+		725D06149DA2B0E388375527 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				69B6CE44F9326719F51C1B9C4DB35DB8 /* AppDelegate.swift */,
-				5496AFBB4164E1DD0145FB5F17E66A30 /* Assets.xcassets */,
-				4076B430461A47F9DA32711FA62A7405 /* Main.storyboard */,
-				5F35D87841D03B63B099508A277E52F0 /* ViewController.swift */,
+				69B6CE44F9326719F51C1B9C /* AppDelegate.swift */,
+				5496AFBB4164E1DD0145FB5F /* Assets.xcassets */,
+				4076B430461A47F9DA32711F /* Main.storyboard */,
+				5F35D87841D03B63B099508A /* ViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		A38049C222E415B100C64CE2 /* infrastructure */ = {
+		A3BEEFA8D1BD741D10AF99BA /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				A38049C322E415B100C64CE2 /* IBaseRepository.swift */,
-				A38049C422E415B100C64CE2 /* IDatabase.swift */,
-				A38049C522E415B100C64CE2 /* Database.swift */,
-				A38049C622E415B100C64CE2 /* GenericItemRepository.swift */,
-				A38049CD22E43CD100C64CE2 /* BaseObject.swift */,
-			);
-			path = infrastructure;
-			sourceTree = "<group>";
-		};
-		A3BEEFA8D1BD741D10AF99BA0D8D1F04 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-				3D20E94C242CFF55EA706CF29680F775 /* Sources */,
+				3D20E94C242CFF55EA706CF2 /* Sources */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
 		};
-		A463E98495688604286D324C2B6C8DC4 /* Carthage */ = {
+		A463E98495688604286D324C /* Carthage */ = {
 			isa = PBXGroup;
 			children = (
-				A612D447E0204D98CD4C48BA7D30905A /* Mac */,
+				A612D447E0204D98CD4C48BA /* Mac */,
 			);
 			name = Carthage;
 			path = Carthage/Build;
 			sourceTree = "<group>";
 		};
-		A612D447E0204D98CD4C48BA7D30905A /* Mac */ = {
+		A584DF5BC7BED80B9F1A7FAC /* infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				CA4BBDCAA06AA8CF10E2A341297C05BE /* Realm.framework */,
-				6688303D3E338ADE9F520ACA91747BF0 /* RealmSwift.framework */,
+				5A4A56A06C1956A922311771 /* BaseObject.swift */,
+				01F519E93C4ADA4EB97E0969 /* Database.swift */,
+				6417F8979D8AB3919E2AEF26 /* GenericItemRepository.swift */,
+				969C6B14ED17F5444A299F9B /* IBaseRepository.swift */,
+				E889BCA87F7AD4871245143C /* IDatabase.swift */,
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		A612D447E0204D98CD4C48BA /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				CA4BBDCAA06AA8CF10E2A341 /* Realm.framework */,
+				6688303D3E338ADE9F520ACA /* RealmSwift.framework */,
 			);
 			path = Mac;
 			sourceTree = "<group>";
 		};
-		AAE649489D78DD6539EEB5FFB66DC7C3 /* Frameworks */ = {
+		AAE649489D78DD6539EEB5FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A463E98495688604286D324C2B6C8DC4 /* Carthage */,
+				A463E98495688604286D324C /* Carthage */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B9E40665B322982A6453CC4EA9E3D41E /* Products */ = {
+		B9E40665B322982A6453CC4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F579523FF6CA05773C75F5F5B0BEB8A /* Repository.framework */,
-				4C255B658A772CC5763912F4480354F8 /* RepositoryTests.xctest */,
-				002EFEE5662F4B560EA9EB9E70DE76F2 /* Sample.app */,
+				6F579523FF6CA05773C75F5F /* Repository.framework */,
+				4C255B658A772CC5763912F4 /* RepositoryTests.xctest */,
+				002EFEE5662F4B560EA9EB9E /* Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C09F45D05CC14E359E8BB5B9EE7E26A9 /* Sample */ = {
+		C09F45D05CC14E359E8BB5B9 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				67247B8883A3A8C3FE4CE206F355000F /* Info.plist */,
-				A2EA21A029A378EB2594684F2C8F830F /* Sample.entitlements */,
-				725D06149DA2B0E38837552762CAE4AF /* Sources */,
+				67247B8883A3A8C3FE4CE206 /* Info.plist */,
+				A2EA21A029A378EB2594684F /* Sample.entitlements */,
+				725D06149DA2B0E388375527 /* Sources */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -260,12 +260,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D2AB1734E89DD04E08514BF93770036 /* Repository */ = {
+		1D2AB1734E89DD04E08514BF /* Repository */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3D537516A62B1120ED0BF4727D5F567 /* Build configuration list for PBXNativeTarget "Repository" */;
+			buildConfigurationList = D3D537516A62B1120ED0BF47 /* Build configuration list for PBXNativeTarget "Repository" */;
 			buildPhases = (
-				9E07F934F5242885DDEE70C1777F5EA2 /* Sources */,
-				0FB70FF4FEA1761F17FE1173D64D548E /* Frameworks */,
+				9E07F934F5242885DDEE70C1 /* Sources */,
+				0FB70FF4FEA1761F17FE1173 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,138 +273,138 @@
 			);
 			name = Repository;
 			productName = Repository;
-			productReference = 6F579523FF6CA05773C75F5F5B0BEB8A /* Repository.framework */;
+			productReference = 6F579523FF6CA05773C75F5F /* Repository.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		85B3BB9D81B9AA956A4FCEB77ACB4230 /* Sample */ = {
+		85B3BB9D81B9AA956A4FCEB7 /* Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FBFF356271EB96CD94BD3FC70224CF5 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildConfigurationList = 8FBFF356271EB96CD94BD3FC /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
-				3C00437CD9CBCF2C010616173FD97D46 /* Sources */,
-				CBFEE858EDDDD518172D51664EF52D6E /* Resources */,
-				94F3259B4551E55370BF9EE287F627D9 /* Frameworks */,
-				7BB4A055D7145FD6A6915FA366C244AF /* Embed Frameworks */,
+				3C00437CD9CBCF2C01061617 /* Sources */,
+				CBFEE858EDDDD518172D5166 /* Resources */,
+				94F3259B4551E55370BF9EE2 /* Frameworks */,
+				7BB4A055D7145FD6A6915FA3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B81E8F6DE8BC87B330B185D8CD79D79C /* PBXTargetDependency */,
+				4599827643920ACD18AF9CC1 /* PBXTargetDependency */,
 			);
 			name = Sample;
 			productName = Sample;
-			productReference = 002EFEE5662F4B560EA9EB9E70DE76F2 /* Sample.app */;
+			productReference = 002EFEE5662F4B560EA9EB9E /* Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E227DA11F88E56EFAEBAD4472994AFEE /* RepositoryTests */ = {
+		E227DA11F88E56EFAEBAD447 /* RepositoryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DA6B3319816C335CB014CC5B54F19A6 /* Build configuration list for PBXNativeTarget "RepositoryTests" */;
+			buildConfigurationList = 3DA6B3319816C335CB014CC5 /* Build configuration list for PBXNativeTarget "RepositoryTests" */;
 			buildPhases = (
-				A8A9C3444CF567EF2CB598FDC517D5B9 /* Sources */,
-				38FFD09AE8882DA7670505470D48C823 /* Frameworks */,
-				91EE5845A923942DC21F97E39E87F750 /* Embed Frameworks */,
+				A8A9C3444CF567EF2CB598FD /* Sources */,
+				38FFD09AE8882DA767050547 /* Frameworks */,
+				91EE5845A923942DC21F97E3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE1A1A6192A52FB836C41FFA6927544A /* PBXTargetDependency */,
+				DB292DB2F9379AEE25A91680 /* PBXTargetDependency */,
 			);
 			name = RepositoryTests;
 			productName = RepositoryTests;
-			productReference = 4C255B658A772CC5763912F4480354F8 /* RepositoryTests.xctest */;
+			productReference = 4C255B658A772CC5763912F4 /* RepositoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D776D4FCF51BF7CA8714C7092A67FC76 /* Project object */ = {
+		D776D4FCF51BF7CA8714C709 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = DAEAABCA4F1BDA57B6C50343CA1EBF24 /* Build configuration list for PBXProject "Repository" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = DAEAABCA4F1BDA57B6C50343 /* Build configuration list for PBXProject "Repository" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5DD9E0D03C122068948E3C8D30F15057;
+			mainGroup = 5DD9E0D03C122068948E3C8D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D2AB1734E89DD04E08514BF93770036 /* Repository */,
-				E227DA11F88E56EFAEBAD4472994AFEE /* RepositoryTests */,
-				85B3BB9D81B9AA956A4FCEB77ACB4230 /* Sample */,
+				1D2AB1734E89DD04E08514BF /* Repository */,
+				E227DA11F88E56EFAEBAD447 /* RepositoryTests */,
+				85B3BB9D81B9AA956A4FCEB7 /* Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CBFEE858EDDDD518172D51664EF52D6E /* Resources */ = {
+		CBFEE858EDDDD518172D5166 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF155EF2C5B68F9B6EB1AEEFE21E31D6 /* Assets.xcassets in Resources */,
-				B5795FA19A1F34D5D2B0238AC1B69AFF /* Main.storyboard in Resources */,
+				753C2433BD36C6CA32C41954 /* Assets.xcassets in Resources */,
+				927B04492B6FE208586CC566 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C00437CD9CBCF2C010616173FD97D46 /* Sources */ = {
+		3C00437CD9CBCF2C01061617 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3732123C506498624A76DA71226BB65B /* AppDelegate.swift in Sources */,
-				ABBCC97B42D22748B420E9D0BF198A32 /* ViewController.swift in Sources */,
+				0EC196D9593EA1163BA5AF85 /* AppDelegate.swift in Sources */,
+				4FDD5FFE7B9820A85655C312 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E07F934F5242885DDEE70C1777F5EA2 /* Sources */ = {
+		9E07F934F5242885DDEE70C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A38049CA22E415B100C64CE2 /* GenericItemRepository.swift in Sources */,
-				A38049C822E415B100C64CE2 /* IDatabase.swift in Sources */,
-				13A01EE256237F3DE9817C21EC8CAD8F /* Film.swift in Sources */,
-				A38049BD22E414DA00C64CE2 /* FilmRepository.swift in Sources */,
-				A38049CE22E43CD100C64CE2 /* BaseObject.swift in Sources */,
-				A38049C922E415B100C64CE2 /* Database.swift in Sources */,
-				A38049C722E415B100C64CE2 /* IBaseRepository.swift in Sources */,
+				188B9295329CFC94D3E008B4 /* BaseObject.swift in Sources */,
+				FEB10CC391C36041AAED7026 /* Database.swift in Sources */,
+				233050937928383305C3A323 /* Film.swift in Sources */,
+				38A80C9BACEBAEB4F9AE4B48 /* FilmRepository.swift in Sources */,
+				1F6025CCCED9B769CAFEFA18 /* GenericItemRepository.swift in Sources */,
+				F26D01F51D0F392946194E23 /* IBaseRepository.swift in Sources */,
+				ECACBDC01A9E922A330900C3 /* IDatabase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8A9C3444CF567EF2CB598FDC517D5B9 /* Sources */ = {
+		A8A9C3444CF567EF2CB598FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A38049CC22E4257600C64CE2 /* DatabaseTests.swift in Sources */,
-				8CBDB1753C4AC74DA82BA9D7623DBBBD /* RepositoryTests.swift in Sources */,
+				3F36493B267DE2742700C20B /* DatabaseTests.swift in Sources */,
+				CE20F2D2550584FF2761AFB9 /* RepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B81E8F6DE8BC87B330B185D8CD79D79C /* PBXTargetDependency */ = {
+		4599827643920ACD18AF9CC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D2AB1734E89DD04E08514BF93770036 /* Repository */;
-			targetProxy = 6AC3163FE356D68502AC08BBE53D39BA /* PBXContainerItemProxy */;
+			target = 1D2AB1734E89DD04E08514BF /* Repository */;
+			targetProxy = E89893B678FE85D5081709D8 /* PBXContainerItemProxy */;
 		};
-		FE1A1A6192A52FB836C41FFA6927544A /* PBXTargetDependency */ = {
+		DB292DB2F9379AEE25A91680 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D2AB1734E89DD04E08514BF93770036 /* Repository */;
-			targetProxy = B6749CF25A0D8A494ACBEFC5ACBFA285 /* PBXContainerItemProxy */;
+			target = 1D2AB1734E89DD04E08514BF /* Repository */;
+			targetProxy = 4E116046ECD9E7E0E00E27AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4076B430461A47F9DA32711FA62A7405 /* Main.storyboard */ = {
+		4076B430461A47F9DA32711F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA64D7BC0911B5463D2E184699852189 /* Base */,
+				DA64D7BC0911B5463D2E1846 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -412,9 +412,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0C6A620A4C8E345E889E938AA082AC7C /* Release */ = {
+		0C6A620A4C8E345E889E938A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D73C4698099C1412880DDD67453E45C4 /* RepositoryTests-Release.xcconfig */;
+			baseConfigurationReference = D73C4698099C1412880DDD67 /* RepositoryTests-Release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -431,11 +431,12 @@
 			};
 			name = Release;
 		};
-		187862D01A13EFF6C21D3059597529C4 /* Debug */ = {
+		187862D01A13EFF6C21D3059 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8126F6F51D5E25470C3BF09D9C4B9D1 /* Sample-Debug.xcconfig */;
+			baseConfigurationReference = A8126F6F51D5E25470C3BF09 /* Sample-Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,9 +451,9 @@
 			};
 			name = Debug;
 		};
-		83B18C5CDD1A1C8F2A36E6F272726C50 /* Debug */ = {
+		83B18C5CDD1A1C8F2A36E6F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75DD94E4B3851A4ABC100CE5BF79CD38 /* RepositoryTests-Debug.xcconfig */;
+			baseConfigurationReference = 75DD94E4B3851A4ABC100CE5 /* RepositoryTests-Debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -469,9 +470,9 @@
 			};
 			name = Debug;
 		};
-		8A8C5921ED469D6D4673BC6CF31E30BC /* Release */ = {
+		8A8C5921ED469D6D4673BC6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F9FACA39794784A7FBF666B4585FBDB /* Repository-Release.xcconfig */;
+			baseConfigurationReference = 0F9FACA39794784A7FBF666B /* Repository-Release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -495,7 +496,7 @@
 			};
 			name = Release;
 		};
-		CA3FE08D945806877F69B4FC2A9B31D6 /* Debug */ = {
+		CA3FE08D945806877F69B4FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -554,7 +555,7 @@
 			};
 			name = Debug;
 		};
-		CC8001B666D8100D543BE79C5F38E042 /* Release */ = {
+		CC8001B666D8100D543BE79C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -605,9 +606,9 @@
 			};
 			name = Release;
 		};
-		DFA7F6136B4271C0218EC53C12CFEB0F /* Debug */ = {
+		DFA7F6136B4271C0218EC53C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51086EAE06F6B70330BDB5FEF41BFEFA /* Repository-Debug.xcconfig */;
+			baseConfigurationReference = 51086EAE06F6B70330BDB5FE /* Repository-Debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -631,11 +632,12 @@
 			};
 			name = Debug;
 		};
-		E71CECFB022F48C7CFEC0A672A9E9126 /* Release */ = {
+		E71CECFB022F48C7CFEC0A67 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4662E68C62FD4530B4D39CB0FB27A565 /* Sample-Release.xcconfig */;
+			baseConfigurationReference = 4662E68C62FD4530B4D39CB0 /* Sample-Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -653,43 +655,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DA6B3319816C335CB014CC5B54F19A6 /* Build configuration list for PBXNativeTarget "RepositoryTests" */ = {
+		3DA6B3319816C335CB014CC5 /* Build configuration list for PBXNativeTarget "RepositoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83B18C5CDD1A1C8F2A36E6F272726C50 /* Debug */,
-				0C6A620A4C8E345E889E938AA082AC7C /* Release */,
+				83B18C5CDD1A1C8F2A36E6F2 /* Debug */,
+				0C6A620A4C8E345E889E938A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "";
+			defaultConfigurationName = Debug;
 		};
-		8FBFF356271EB96CD94BD3FC70224CF5 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+		8FBFF356271EB96CD94BD3FC /* Build configuration list for PBXNativeTarget "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				187862D01A13EFF6C21D3059597529C4 /* Debug */,
-				E71CECFB022F48C7CFEC0A672A9E9126 /* Release */,
+				187862D01A13EFF6C21D3059 /* Debug */,
+				E71CECFB022F48C7CFEC0A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "";
+			defaultConfigurationName = Debug;
 		};
-		D3D537516A62B1120ED0BF4727D5F567 /* Build configuration list for PBXNativeTarget "Repository" */ = {
+		D3D537516A62B1120ED0BF47 /* Build configuration list for PBXNativeTarget "Repository" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFA7F6136B4271C0218EC53C12CFEB0F /* Debug */,
-				8A8C5921ED469D6D4673BC6CF31E30BC /* Release */,
+				DFA7F6136B4271C0218EC53C /* Debug */,
+				8A8C5921ED469D6D4673BC6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "";
+			defaultConfigurationName = Debug;
 		};
-		DAEAABCA4F1BDA57B6C50343CA1EBF24 /* Build configuration list for PBXProject "Repository" */ = {
+		DAEAABCA4F1BDA57B6C50343 /* Build configuration list for PBXProject "Repository" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA3FE08D945806877F69B4FC2A9B31D6 /* Debug */,
-				CC8001B666D8100D543BE79C5F38E042 /* Release */,
+				CA3FE08D945806877F69B4FC /* Debug */,
+				CC8001B666D8100D543BE79C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D776D4FCF51BF7CA8714C7092A67FC76 /* Project object */;
+	rootObject = D776D4FCF51BF7CA8714C709 /* Project object */;
 }
