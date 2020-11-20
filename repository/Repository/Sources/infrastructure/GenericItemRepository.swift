@@ -33,4 +33,7 @@ open class GenericItemRepository: IBaseRepository {
         db.delete(object)
     }
     
+    func object(ofType type: AnyClass, forPrimaryKey key: String) -> BaseObject {
+        return db.object(ofType: type, forPrimaryKey: key) as! BaseObject
+    }
 }

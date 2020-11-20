@@ -26,4 +26,8 @@ open class FilmRepository {
     public func delete(_ object: Film) {
         gr.delete(object)
     }
+    
+    func object(forPrimaryKey key: String) -> Film {
+        return gr.object(ofType: Film.self, forPrimaryKey: key) as! Film
+    }
 }

@@ -42,6 +42,10 @@ open class Database: IDatabase {
         }
     }
     
+    public func object(ofType type: AnyClass, forPrimaryKey key: String) -> Object? {
+        let object = try! realm.object(ofType: type as! Object.Type, forPrimaryKey: key)
+        return object
+    }
 }
 
 extension Realm {

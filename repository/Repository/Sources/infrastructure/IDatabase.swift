@@ -13,4 +13,6 @@ public protocol IDatabase {
     func add(_ object: T) -> Void
     func update(_ object: T) -> Void
     func delete(_ object: T) -> Void
+    func object(ofType type: AnyClass, forPrimaryKey key: String) -> T?
+    
 }
