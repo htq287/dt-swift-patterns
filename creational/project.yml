@@ -1,0 +1,57 @@
+name: Creational
+options:
+  minimumXcodeGenVersion: 2.2.0
+  createIntermediateGroups: true
+targets:
+  #macOS application
+  Sample:
+    platform: macOS
+    deploymentTarget: "10.14"
+    type: application
+    sources:
+      - Sample
+    dependencies:
+      - target: Creational
+    configFiles:
+      Debug: configs/Sample-Debug.xcconfig
+      Release: configs/Sample-Release.xcconfig
+    scheme:
+      environmentVariables:
+        ENABLE_SIGNPOST: YES
+  # Framework Targets
+  Creational:
+    platform: macOS
+    type: framework
+    deploymentTarget: "10.14"
+    sources:
+      - Creational
+    configFiles:
+      Debug: configs/Creational-Debug.xcconfig
+      Release: configs/Creational-Release.xcconfig
+  #Test Targets
+  SampleTests:
+    platform: macOS
+    type: bundle.unit-test
+    configFiles:
+      Debug: configs/SampleTests.xcconfig
+    sources:
+      - Tests/SampleTests
+    dependencies:
+      - target: Creational
+    scheme:
+      testTargets:
+        - SampleTests
+      gatherCoverageData: true
+  CreationalTests:
+    platform: macOS
+    type: bundle.unit-test
+    configFiles:
+      Debug: configs/CreationalTests.xcconfig
+    sources:
+      - Tests/CreationalTests
+    dependencies:
+      - target: Creational
+    scheme:
+      testTargets:
+        - CreationalTests
+      gatherCoverageData: true
