@@ -13,7 +13,7 @@ Reusing design patterns help prevent subtle issues which cause major problems, a
 # License
 The MIT License (MIT)
 
-Copyright (C) 2020, Hung Q. Truong. https://htq287.com. All rights reserved.
+Copyright (C) 2023, Hung Q. Truong. https://htq287.com. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
